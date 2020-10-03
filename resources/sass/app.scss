@@ -1,0 +1,30 @@
+// Fonts
+@import url('https://fonts.googleapis.com/css?family=Nunito');
+
+// Variables
+@import 'variables';
+
+// Bootstrap
+@import '~bootstrap/scss/bootstrap';
+
+// Font Awesome
+@import '~@fortawesome/fontawesome-free/scss/fontawesome';
+@import '~@fortawesome/fontawesome-free/scss/solid';
+
+.car {
+    font-family: Arial, sans-serif;
+}
+
+.page-item.active .page-link {
+    background-color: #343a40; border-color: #343a40
+}
+.page-link {
+    color: black;
+}
+.page-link:hover {
+    color: black;
+}
+
+
+
+
