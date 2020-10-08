@@ -16991,10 +16991,6 @@ readers do not read off random characters that represent icons */
   font-weight: 900;
 }
 
-.car {
-  font-family: Arial, sans-serif;
-}
-
 .page-item.active .page-link {
   background-color: #343a40;
   border-color: #343a40;
@@ -17006,5 +17002,24 @@ readers do not read off random characters that represent icons */
 
 .page-link:hover {
   color: black;
+}
+
+.pagination-dark .page-item.active .page-link {
+  background-color: #6c757d;
+  border-color: white;
+}
+
+.pagination-dark .page-item.disabled .page-link {
+  background-color: #343a40;
+}
+
+.pagination-dark .page-link {
+  color: white;
+  background-color: #343a40;
+}
+
+.pagination-dark .page-link:hover {
+  background-color: #6c757d;
+  color: white;
 }
 

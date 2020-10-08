@@ -24,10 +24,6 @@
         </tr>
     </table>
 
-    <span>
-        <a href="{{ route('car.show', ["car" => 1]) }}" class="btn btn-dark">Späť</a>
-    </span>
-
     <div>
         <p class="small text-secondary pt-2 mt-4"><i class="fa fa-calendar"></i> {{ $car->updated_at }}</p>
     </div>

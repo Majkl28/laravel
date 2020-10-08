@@ -72,11 +72,11 @@
 
     <div class="row m-0 justify-content-between">
         <span>
-            <a href="{{ route('car.create') }}" class="btn btn-dark">
+            <a href="{{ route('car.create') }}" class="btn btn-dark" id="addCarBtn">
             Pridať nový automobil</a>
         </span>
 
-        <span>
+        <span id="links">
             {{ $cars->withQueryString()->links() }}
         </span>
     </div>

@@ -49,12 +49,12 @@
                     </li>
                 @endauth
             </ul>
-
+<!--
             <div class="custom-control custom-switch mr-auto">
                 <input type="checkbox" class="custom-control-input" id="darkSwitch" />
                 <label class="custom-control-label text-white" for="darkSwitch">Tmavý režim</label>
             </div>
-
+-->
             <form class="form-inline">
                 <div class="md-form my-0">
                     <input class="form-control mr-sm-2" type="text" placeholder="Search" aria-label="Search">
