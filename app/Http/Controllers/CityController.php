@@ -3,8 +3,6 @@
 namespace App\Http\Controllers;
 
 use App\Models\City;
-use App\Models\Email;
-use App\Models\WebAddress;
 use Illuminate\Contracts\View\View;
 
 class CityController extends Controller
@@ -19,8 +17,8 @@ class CityController extends Controller
     {
         return view('city.show', [
             'city' => $city,
-            'emails' => Email::where('city_id', $city->id)->get(),
-            'webAddresses' => WebAddress::where('city_id', $city->id)->get()
+            'emails' => $city->emails()->get(),
+            'webAddresses' => $city->webAddresses()->get()
         ]);
     }
 }
